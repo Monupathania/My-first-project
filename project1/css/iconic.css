@@ -47,7 +47,7 @@ body {
 
 /* banner */
 .banner-image {
-    background-image: url(../image.png);
+    background-image: url("../image/image 1.png");
     background-repeat: no-repeat;
     min-height: 500px;
     background-size: contain;

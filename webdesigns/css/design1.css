@@ -1,0 +1,42 @@
+.border {
+    border: 1px solid black;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.main-body {
+    flex: 6;
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

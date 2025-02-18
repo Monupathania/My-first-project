@@ -1,0 +1,31 @@
+.main-body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+}
+
+.left {
+    flex-basis: 100px;
+}
+
+.right {
+    flex-basis: 100px;
+}
+
+.center {
+    flex-grow: 1;
+}
+.header{
+   flex-basis: 80px;
+}
+.footer{
+    flex-basis: 80px;
+}

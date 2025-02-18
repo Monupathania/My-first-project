@@ -1,0 +1,13 @@
+.inner-element-text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+html,body{
+    height: 100%;
+}

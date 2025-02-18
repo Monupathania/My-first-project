@@ -14,39 +14,33 @@ body {
     flex-flow: column;
 }
 
-.main-body {
-    height: 100%;
-    display: flex;
-    align-items: center;
+.header {
+    flex-basis: 60px;
+    flex-grow: 1;
 }
 
-.header {
-    text-align: center;
+.main-body {
+    flex: 10;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.footer {
+    flex-basis: 60px;
+    flex-grow: 1;
 }
 
 .left {
-    width: 10%;
-    display: flex;
-    justify-content: center;
     flex: 1;
+    flex-flow: column;
 }
 
 .content-center {
-    width: 80%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex: 7;
 }
 
 .right {
-    width: 10%;
-    display: flex;
-    justify-content: center;
     flex: 1;
 }
 
-.footer {
-    text-align: center;
-}

@@ -17,11 +17,10 @@ body {
 .header {
     flex-basis: 60px;
     flex-grow: 1;
-   align-items: center;
+    align-items: center;
 }
 
-
-h2{
+h2 {
     flex-grow: 1;
     text-align: center;
 }
@@ -50,4 +49,3 @@ h2{
 .right {
     flex: 1;
 }
-

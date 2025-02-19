@@ -1,0 +1,22 @@
+.outer {
+    width: 100%;
+}
+
+.header {
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left,
+.right {
+    display: flex;
+    gap: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+}

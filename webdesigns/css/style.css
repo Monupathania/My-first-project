@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+.header div{
+   display: flex;
+   justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #0000ff
+}
+.header a:hover{
+    color: #000000;
+}
+.nav-link div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.body-container{
+    margin-top: 10%;
+}

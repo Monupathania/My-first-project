@@ -1,0 +1,48 @@
+.main-body {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.sub-body {
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+
+}
+
+.cont1 {
+    flex-grow: 1;
+
+    /* For child */
+    display: flex;
+    flex-flow: column;
+   
+}
+
+.main-content {
+    flex-grow: 1; 
+
+    display: flex;
+    flex-flow: row;  
+}
+
+.cont2 {
+    flex-grow: 1;
+}
+
+.header {
+    flex-basis: 80px;
+}
+
+.left {
+    flex-basis: 80px;
+}
+
+.header2 {
+    flex-basis: 80px;
+}
+
+.left2 {
+    flex-basis: 80px;
+}

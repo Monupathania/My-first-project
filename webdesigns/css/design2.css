@@ -17,6 +17,13 @@ body {
 .header {
     flex-basis: 60px;
     flex-grow: 1;
+   align-items: center;
+}
+
+
+h2{
+    flex-grow: 1;
+    text-align: center;
 }
 
 .main-body {

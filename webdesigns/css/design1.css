@@ -18,6 +18,12 @@ body {
 
 .header {
     flex: 1;
+   display: flex;
+   align-items: center;
+}
+h2{
+    flex-grow: 1;
+    text-align: center;
 }
 
 .panel {

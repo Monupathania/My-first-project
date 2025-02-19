@@ -26,6 +26,10 @@
 .header{
    flex-basis: 80px;
 }
+p{
+    flex: 1;
+    text-align: center;
+}
 .footer{
     flex-basis: 80px;
 }
